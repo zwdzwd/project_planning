@@ -1,34 +1,44 @@
 * Wanding
-** PATZ fusion
+** cytomethic, glocal classifier
+** EPIC Ultra design (https://screen.wenglab.org/downloads)
 ** sparse-seq
 ** thyroid classifier
-** cytomethic, glocal classifier
 ** rewilded mouse aging
+** PATZ fusion
 * Hao Xu
-** imputation, foundation model + sparse-seq
+** AS vs WGS rapid diagnosis, finish the paper
+** cytomethic - glocal classifier
+** imputation (diffusion model?), foundation model + sparse-seq, epigenome complexity
 ** brain tumor WGS classification
 ** data augmentation + imputation of aging effect
-** AS vs WGS rapid diagnosis
 ** thyroid cancer project, nano-thyroid
-** cytomethic - glocal classifier
+** distill methylation foundation m odel
 * Cameron Cloud
 ** cancer cell of origin
 ** EPIC Ultra design
+*** run Hao's model using Infinium array input
 ** sorted immune cell 5hmC
 ** osteosarcoma
 * Hongxiang Fu
-** methscope
 ** spatial skin project
+** supervised spatial methylation analysis methods
+use external or internal sentinels as the coordinates that define spatial gradient, then analyze the methylation variation.
+** methscope
+*** cell-free DNAm public data, download St Jude data {41703322} (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292312), Hansen He data {41714824}
+*** restrict the model on the array space, maybe combined with complexity
 * Namju
+** 5xFAD WGBS
 ** immune cell 5hmC
-** 5xFAD
+** epimatcher
 * Chang Su
 ** spatial-QC
 * Jenny Li
 ** thyroid classifier
 * Olivia
+** brain region analysis
 * Riya
 ** brain region analysis
 * TBD
 ** epimatcher
 ** read-level multiomics
+** multi-modal integration: 5mC+5hmC, 5mC+atac, 5mC+rna
